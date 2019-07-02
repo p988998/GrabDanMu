@@ -27,7 +27,7 @@ public class GrabData {
     }
     private static void getMessage(HttpClient httpClient) throws IOException {
         //String dataUrl="https://api.bilibili.com/x/v2/dm/recent?pn="+cursor+"&ps="+limit;
-        String dataUrl="https://api.bilibili.com/x/v1/dm/list.so?oid=100023105";
+        String dataUrl="https://api.bilibili.com/x/v1/dm/list.so?oid=95879122";
         PostMethod postMethod=new PostMethod();
         GetMethod getMethod = new GetMethod(dataUrl);
         postMethod.setRequestHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36");
